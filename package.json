@@ -1,0 +1,30 @@
+{
+  "name": "employeemanagementsystemhw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node seeds/seed.js"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "jest": "^27.1.0",
+    "mysql2": "^2.3.0",
+    "wait-console-input": "^0.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HavoxPrime/employeeManagementSystemHW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HavoxPrime/employeeManagementSystemHW/issues"
+  },
+  "homepage": "https://github.com/HavoxPrime/employeeManagementSystemHW#readme"
+}
